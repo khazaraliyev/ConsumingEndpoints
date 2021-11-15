@@ -22,12 +22,12 @@ with Clean/Onion Architecture
 > Countries: Keeps supported counrties
 
 ### Endpoints
-country/countries - returns list of supported countries
+api/country/countries - returns list of supported countries
 
-holiday/holidays - returns list of holidays for given country in a given year gruoped by a month
+api/holiday/holidays - returns list of holidays for given country in a given year gruoped by a month
 
-holiday/freedays - returns maximum number of holidays in a row for a given country and year
+api/holiday/freedays - returns maximum number of holidays in a row for a given country and year
 
-day/daystatus - returns status(type of holiday, workday, freeday) of a day
+api/day/daystatus - returns status(type of holiday, workday, freeday) of a day
 
 #### > For detailed information about endpoints and their request bodies see the url /swagger
